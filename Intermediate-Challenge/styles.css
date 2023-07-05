@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #979797;
+    margin: 0 auto;
+    font: 12px/18px D-DIN-Bold,Arial,Verdana,sans-serif;
+    background-color: #000;
+}
+
+footer > button {
+    border: none;
+    color: #fff;
+    background-color: #000;
+    font-weight: 400;
+    margin: 0 20px;
+    font: 12px/24px D-DIN-Bold,Arial,Verdana,sans-serif;
+}

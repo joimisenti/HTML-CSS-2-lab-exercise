@@ -1,12 +1,17 @@
 * {
-
+    margin: 0;
+    padding: 25px;
 }
 
 #solidborder {
+    box-sizing: border-box;
+    display: flex;
     margin: 50px;
-    border: 10px;
+    border: 5px;
     border-color: black;
-    padding: 100px;
+    border-style: solid;
+    padding: 10px;
+    align-items: flex-end;
 }
 
 #purplebox {
@@ -14,17 +19,17 @@
     background-color: #924BD7;
     margin: 5px;
     padding: 5px;
-    height: 5px;
-    width: 5px;
+    height: 150px;
+    width: 50px;
 }
 
 #greenbox {
     display: inline;
     background-color: #228B22;
-    margin: 5px;
+    margin: 0 50px;
     padding: 50px;
-    height: 50px;
-    width: px;
+    height: 200px;
+    width: 400px;
 }
 
 #bluecircle {
@@ -32,16 +37,18 @@
     background-color: #87CEEB;
     margin: 5px;
     padding: 5px;
-    height: 5px;
-    width: 5px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 #dottedborder {
     margin: 30px;
-    border: 10px;
+    border: 5px;
     border-color: black;
     border-style: dotted;
-    padding: 10px;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 #creambox {
